@@ -1,0 +1,49 @@
+#main-content {
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+}
+
+#background {
+	width: 100%;
+	position: absolute;
+}
+
+h1 {
+	margin-top: 120px;
+	margin-left: 170px;
+	position: absolute;
+	font-weight: bold;
+}
+
+p {
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 170px;
+	width: 1260px;
+	text-align: justify;
+}
+
+#button_left {
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+}
+
+#button_left:hover { 
+	transform: translate(10px,0);
+}
+
+#button_right {
+	position: absolute;
+	top: 350px;
+	right: 0px;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+}
+
+#button_right:hover { 
+	transform: translate(-10px,0);
+}
