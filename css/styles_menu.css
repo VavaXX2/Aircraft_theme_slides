@@ -1,0 +1,146 @@
+#main-content {
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+}
+
+#wing {
+	width: 544px;
+	right: 0px;
+	position: absolute;
+}
+
+h1 {
+	margin-top: 120px;
+	margin-left: 170px;
+	position: absolute;
+	font-weight: bold;
+	color: #bd5d14;
+}
+
+p {
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 170px;
+	width: 1130px;
+	text-align: justify;
+}
+
+#button_left {
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+}
+
+#button_left:hover { 
+	transform: translate(10px,0);
+}
+
+#button_right {
+	position: absolute;
+	top: 350px;
+	right: 0px;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+}
+
+#button_right:hover { 
+	transform: translate(-10px,0);
+}
+
+#Home-tiles {
+	position: relative;
+
+}
+
+#Upload_tile {
+	width: 430px;
+	height: 230px;
+	background-color: #9fc5e5;
+	/*background: url('../pics/up.png') no-repeat;*/
+	background-position: center;
+	position: absolute;
+	left: 170px;
+	top: 350px;
+	box-shadow: 0 0 20px #898989;
+	transition: all .2s ease-in-out;
+}
+
+#Upload_tile:hover {
+	text-decoration: none;
+	background-color: #f19f72;
+	transform: scale(1.03);
+}
+
+#Categories_tile {
+	width: 430px;
+	height: 230px;
+	background-color: #9fc5e5;
+	/*background: url('../pics/categories.png') no-repeat;*/
+	background-position: center;
+	position: absolute;
+	left: 650px;
+	top: 350px;
+	box-shadow: 0 0 20px #898989;
+	transition: all .2s ease-in-out;
+}
+
+#Categories_tile:hover {
+	text-decoration: none;
+	background-color: #f19f72;
+	transform: scale(1.03);
+}
+
+#Scorm_tile {
+	width: 430px;
+	height: 230px;
+	background-color: #9fc5e5;
+	/*background: url('../pics/scorm.png') no-repeat;*/
+	background-position: center;
+	position: absolute;
+	left: 170px;
+	top: 620px;
+	box-shadow: 0 0 20px #898989;
+	transition: all .2s ease-in-out;
+}
+
+#Scorm_tile:hover {
+	text-decoration: none;
+	background-color: #f19f72;
+	transform: scale(1.03);
+}
+
+#Reports_tile {
+	width: 430px;
+	height: 230px;
+	background-color: #9fc5e5;
+	/*background: url('../pics/reports.png') no-repeat;*/
+	background-position: center;
+	position: relative;
+	left: 650px;
+	top: 620px;
+	box-shadow: 0 0 20px #898989;
+	transition: all .2s ease-in-out;
+}
+
+#Reports_tile:hover {
+	text-decoration: none;
+	background-color: #f19f72;
+	transform: scale(1.03);
+}
+
+#Upload {
+	position: absolute;
+	bottom: 0px;
+	background-color: white;
+	opacity: .7;
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+}
+
+#Upload:hover {
+	text-decoration: none;
+}

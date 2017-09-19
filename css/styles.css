@@ -45,4 +45,5 @@ p {
 }
 
 #button_right:hover { 
-	transform: translate(-10px,0); }
+	transform: translate(-10px,0);
+}
