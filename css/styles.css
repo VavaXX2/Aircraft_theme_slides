@@ -1,3 +1,7 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
 #main-content {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -22,6 +26,7 @@ p {
 	margin-left: 170px;
 	width: 1260px;
 	text-align: justify;
+	font-size: 16pt;
 }
 
 #button_left {
