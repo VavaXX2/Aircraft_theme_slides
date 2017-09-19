@@ -20,7 +20,7 @@ h1 {
 	font-weight: bold;
 }
 
-p {
+#odstavec1 {
 	position: absolute;
 	margin-top: 170px;
 	margin-left: 170px;
@@ -28,6 +28,25 @@ p {
 	text-align: justify;
 	font-size: 16pt;
 }
+
+ul {
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 170px;
+	width: 1260px;
+	text-align: justify;
+	font-size: 16pt;
+}
+
+#odstavec2 {
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 170px;
+	width: 1260px;
+	text-align: justify;
+	font-size: 16pt;
+}
+
 
 #button_left {
 	position: absolute;
