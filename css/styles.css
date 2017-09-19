@@ -15,7 +15,7 @@
 
 h1 {
 	position: absolute;
-	top: 120px;
+	top: 100px;
 	left: 170px;
 	font-weight: bold;
 }
@@ -40,7 +40,7 @@ ul {
 
 #odstavec2 {
 	position: absolute;
-	top: 380px;
+	top: 400px;
 	left: 170px;
 	width: 1260px;
 	text-align: justify;
